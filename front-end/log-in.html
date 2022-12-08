@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../front-end/css/log-in.css">
+    <script src="https://kit.fontawesome.com/17cf30f4c2.js" crossorigin="anonymous"></script>
+    <script src="../front-end/js/log-in.js" defer></script>
+    <!-- <script src="../front-end/js/common.js" defer></script> -->
+    <title>Log In log-out page</title>
+</head>
+<body>
+        <nav>
+            <div>
+                <a href="#">Ecommerce</a>
+
+            </div>
+        </nav>
+        <div class="welcome">
+            welcome to Ecommerce:
+        </div>
+        <section class="auth-from">
+            
+            <div class="logIn-form d-none" id="loginForm">
+                <form action="" >
+                    <p>log in </p>
+                    <div><input type="text" placeholder="Enter UserId" id="loginUsername"></div>
+                    <div> <input type="text" placeholder="password" id="loginPassword"></div>
+                    <div class="btnn"><button type="button" class="btn btn-primary" id="loginBtn">Log In</button></div>
+                    <div class="signup-btn text-center text-info" id="showSignupBtn">Dont have an Accout? Signup</div>
+                    <div class="signup-btn text-center text-info red" id="authErrMsg"></div>
+ 
+                </form>
+            </div>
+            <div class="signup-fom d-none" id="signupForm">
+                <form action="" >
+                    <p>Sign Up</p>
+                    <div><input type="text" placeholder="Enter UserId" id="signupUsername"></div>
+                    <div><input type="text" placeholder="Enter password" id="signupPassword"></div>
+                    <div><input type="text" placeholder="Enter your Email Id" id="signupEmail"></div>
+                    <div class="btnn"><button type="button" class="btn btn-primary" id="signupBtn">Sign Up</button></div>
+                    <div class="signup-btn text-center text-info" id="showloginBtn">Already an Accout? Login</div>
+                    <div class="signup-btn text-center text-info red" id="authErrMsgg"></div>
+                    <div class="signup-btn text-center text-info red" id="succErrMsg"></div>
+                </form>
+
+            </div>
+        </section>
+       
+
+
+        <footer class="footer">
+            
+            <div class="social-media-link">
+                <i class="fab fa-facebook fa-4x"></i>
+                <i class="fab fa-twitter fa-4x"></i>
+                <i class="fab fa-instagram fa-4x"></i>
+                
+            </div>
+            <p>Ecommerce &copy; 2022, All Rights Reserved</p> 
+        </footer>
+
+
+</body>
+</html>
